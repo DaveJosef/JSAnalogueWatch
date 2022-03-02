@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 98vw;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+}
+
+div {
+    border-radius: 30px;
+    background-color: blue;
+    box-shadow: rgb(31, 31, 56) 9px 9px 27px;
+    width: 45vw;
+    height: 45vw;
+}
+
+div.dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: cornsilk;
+    transform-origin: 10px 10px;
+}
+
+div.ponteiro {
+    box-shadow: none;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 10px 50%;
+    transform: rotate(0deg) translate(0, -50%);
+}
+
+div.segundo {
+    background-color: blueviolet;
+    width: 200px;
+    height: 7px;
+    transform-origin: 10px 3.5px;
+}
+
+div.minuto {
+    background-color: brown;
+    width: 178px;
+    height: 16px;
+    transform-origin: 10px 8px;
+}
+
+div.hora {
+    background-color: chartreuse;
+    width: 120px;
+}
